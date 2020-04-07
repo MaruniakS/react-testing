@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import moxios from 'moxios';
-import { render, fireEvent, getByTestId } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 
 import Root from 'Root';
 import App from 'components/App';
